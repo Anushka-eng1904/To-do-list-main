@@ -20,7 +20,7 @@ def home(request):
 
 
 def about(request):
-    context = {'first_name': 'Alireza', 'last_name': 'Ghorbani'}
+    context = {'first_name': 'Anushka', 'last_name': 'Singh'}
     return render(request, 'about.html', context)
 
 
